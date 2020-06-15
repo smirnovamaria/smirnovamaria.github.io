@@ -48,21 +48,6 @@
   </url>
   
   <url>
-    <loc>https://smirnovamaria.github.io/ru/post/hello/</loc>
-    <lastmod>2020-06-15T14:44:13+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://smirnovamaria.github.io/post/hello/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://smirnovamaria.github.io/ru/post/hello/"
-                />
-  </url>
-  
-  <url>
     <loc>https://smirnovamaria.github.io/ru/post/</loc>
     <lastmod>2020-06-15T14:44:13+03:00</lastmod>
     <xhtml:link
@@ -74,6 +59,21 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://smirnovamaria.github.io/ru/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://smirnovamaria.github.io/ru/post/hello/</loc>
+    <lastmod>2020-06-15T14:44:13+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://smirnovamaria.github.io/post/hello/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://smirnovamaria.github.io/ru/post/hello/"
                 />
   </url>
   
@@ -210,7 +210,7 @@
   </url>
   
   <url>
-    <loc>https://smirnovamaria.github.io/ru/author/smirnova-m.a./</loc>
+    <loc>https://smirnovamaria.github.io/ru/author/%D1%81%D0%BC%D0%B8%D1%80%D0%BD%D0%BE%D0%B2%D0%B0-%D0%BC.%D0%B0./</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -219,7 +219,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://smirnovamaria.github.io/ru/author/smirnova-m.a./"
+                href="https://smirnovamaria.github.io/ru/author/%D1%81%D0%BC%D0%B8%D1%80%D0%BD%D0%BE%D0%B2%D0%B0-%D0%BC.%D0%B0./"
                 />
   </url>
   
