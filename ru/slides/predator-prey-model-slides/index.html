@@ -15,7 +15,7 @@
 
   <link rel="canonical" href="https://smirnovamaria.github.io/ru/slides/predator-prey-model-slides/">
 
-  <title>Slides | Смирнова М.А.</title>
+  <title>Слайды | Смирнова М.А.</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/reveal.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/black.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous">
 
@@ -57,7 +57,7 @@
     
     <section>
     
-      <h1 id="predator-prey-model">Predator-prey model</h1>
+      <h1 id="модель-хищник-жертва">Модель хищник-жертва</h1>
 
     </section>
     
@@ -68,7 +68,7 @@
     <section>
     
       
-<h2 id="model-model-description">Model. Model description.</h2>
+<h2 id="модель-описание-модели">Модель. Описание модели</h2>
 
     </section>
     
@@ -79,16 +79,15 @@
     <section>
     
       
-<p>The simplest model of interaction of two types of &ldquo;predator - prey&rdquo; -
-Lotka-Volterra model. This two-species model is based on
-the following assumptions:</p>
+<p>Простейшая модель взаимодействия двух типов &ldquo;хищник - жертва&rdquo; - модель
+Лотки-Волтерры. Эта двухвидовая модель основана на следующих предположениях:</p>
 <ol>
 <li>
-<p>The population numbers of prey x and predators y depend only on time</p>
+<p>Численность популяции добычи x и хищников y зависит только от времени</p>
 </li>
 <li>
-<p>In the absence of interaction, the number of species changes by the model
-Malthus, with the number of prey increasing and the number of predators falling.</p>
+<p>При отсутствии взаимодействия количество видов изменяется по модели
+Мальтуса, с увеличением количества добычи и падением числа хищников.</p>
 </li>
 </ol>
 
@@ -103,15 +102,15 @@ Malthus, with the number of prey increasing and the number of predators falling.
       
 <ol start="3">
 <li>
-<p>Natural mortality of the prey and natural birth rate of the predator
-are considered insignificant</p>
+<p>Естественная смертность добычи и естественная рождаемость хищника
+считаются незначительными</p>
 </li>
 <li>
-<p>The saturation effect of both populations is not considered</p>
+<p>Эффект насыщения обеих популяций не рассматривается</p>
 </li>
 <li>
-<p>The rate of increase in the number of prey decreases proportionally
-predator abundances</p>
+<p>Темпы увеличения численности добычи снижаются пропорционально
+изобилию хищников</p>
 </li>
 </ol>
 
@@ -124,10 +123,10 @@ predator abundances</p>
     <section>
     
       
-<p>In this model, x is the number of prey, y is the number of predators.</p>
+<p>В этой модели x - количество добычи, y - количество хищников.</p>
 <p><img class="special-img-class" src="/img/predator-prey model slides img/model.png" /></p>
-<p>Evolution of the prey population and
-predators in the Lotka-Volterra model</p>
+<p>Эволюция популяции добычи и
+хищников в модели Лотки-Вольтерры</p>
 
     </section>
     
@@ -138,7 +137,7 @@ predators in the Lotka-Volterra model</p>
     <section>
     
       
-<h2 id="algorithm">Algorithm.</h2>
+<h2 id="алгоритм">Алгоритм</h2>
 
     </section>
     
@@ -149,10 +148,10 @@ predators in the Lotka-Volterra model</p>
     <section>
     
       
-<p>Our predator-prey model has only two initial states:</p>
+<p>Наша модель хищник-жертва имеет только два начальных состояния:</p>
 <ol>
-<li>Stationary state (Figure 1, point A)</li>
-<li>The state having a deviation from the stationary one (Figure 1, point B)</li>
+<li>Стационарное состояние (рис. 1, точка А)</li>
+<li>Состояние, имеющее отклонение от стационарного (рис. 1, точка В)</li>
 </ol>
 <p><img class="special-img-class" src="/img/predator-prey model slides img/figuresAB.png" /></p>
 
@@ -165,23 +164,13 @@ predators in the Lotka-Volterra model</p>
     <section>
     
       
-<h3 id="with-a-small-change-in-the-model-the-following-happens">With a small change in the model, the following happens:</h3>
+<h3 id="при-небольшом-изменении-модели-происходит-следующее">При небольшом изменении модели происходит следующее:</h3>
 <p>$$
 \frac{dx}{dt} = -ax(t) + bx(t)y(t)
 $$</p>
 <p>$$\frac{dy}{dt} = cy(t) - dx(t)y(t)$$</p>
-<p>Here x - number of preys, y - number of predators. a - ratio of natural mortality of predators, b - ratio of natural increase in preys, c - ratio of increase in predators, d - ratio of mortality of preys.</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<p>Scheme:</p>
+<h2 id="здесь-х---количество-добычи-у---число-хищников-а---отношение-естественной-смертности-хищников-b---отношение-естественного-прироста-добычи-с---отношение-прироста-хищников-d---отношение-смертности-добычи">Здесь х - количество добычи, у - число хищников. а - отношение естественной смертности хищников, b - отношение естественного прироста добычи, с - отношение прироста хищников, d - отношение смертности добычи.</h2>
+<p>Схема:</p>
 <p><img class="special-img-class" src="/img/predator-prey model slides img/scheme.png" /></p>
 
     </section>
@@ -193,7 +182,7 @@ $$</p>
     <section>
     
       
-<h2 id="software-solution">Software solution.</h2>
+<h2 id="программная-реализация">Программная реализация</h2>
 
     </section>
     
@@ -205,7 +194,7 @@ $$</p>
     
       
 <p><img width = "600" class="special-img-class" src="/img/predator-prey model slides img/octave.png" /></p>
-<p style = "float:right">To solve this problem, we used the system for mathematical calculations gnu octave. GNU Octave is a free system for mathematical calculations, using a high-level MATLAB-compatible language.</p>
+<p style = "float:right">Для решения этой задачи мы использовали систему для математических вычислений GNU Octave. GNU Octave - свободная система для математических вычислений, использующая высокоуровневый MATLAB - совместимый язык.</p>
 
     </section>
     
@@ -216,7 +205,7 @@ $$</p>
     <section>
     
       
-<h3 id="code">Code.</h3>
+<h3 id="код">Код.</h3>
 <pre><code class="language-MATHLAB">set(figure,'Name','Lotka-Volterra models of Predator-Prey Relationships','NumberTitle','off')
 
 function dx=f(x,t)

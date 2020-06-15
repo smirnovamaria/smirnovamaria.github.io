@@ -5,7 +5,7 @@
     <link>https://smirnovamaria.github.io/tag/mathematical-model/</link>
       <atom:link href="https://smirnovamaria.github.io/tag/mathematical-model/index.xml" rel="self" type="application/rss+xml" />
     <description>Mathematical model</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://smirnovamaria.github.io/img/myphoto.jpg</url>
       <title>Mathematical model</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Predator-Prey Model</title>
       <link>https://smirnovamaria.github.io/project/predator-prey-model/</link>
-      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://smirnovamaria.github.io/project/predator-prey-model/</guid>
       <description>&lt;h2 id=&#34;model-description&#34;&gt;Model description&lt;/h2&gt;
 &lt;p&gt;The simplest model of interaction of two types of &amp;ldquo;predator - prey&amp;rdquo; -
@@ -35,9 +35,9 @@ predator abundances&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;dx/dt = -ax(t) + bx(t)y(t)&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;dy/dt = cy(t) - dx(t)y(t)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;In this model, x is the number of victims and y is the number of predators. Coefficient a describes the rate of natural increase in the number of victims in the absence of predators, C-the natural extinction of predators deprived of food in the form of victims. The probability of interaction between a victim and a predator is calculated in proportion to both the number of victims and the number of predators themselves (xy). Each interaction reduces the population of prey, but increases the population of predators (the members are bsa and dxy on the right side of the equation).&lt;/p&gt;
+&lt;p&gt;In this model, &lt;code&gt;x&lt;/code&gt; is the number of victims and &lt;code&gt;y&lt;/code&gt; is the number of predators. Coefficient &lt;code&gt;a&lt;/code&gt; describes the rate of natural increase in the number of victims in the absence of predators, &lt;code&gt;c&lt;/code&gt; -the natural extinction of predators deprived of food in the form of victims. The probability of interaction between a victim and a predator is calculated in proportion to both the number of victims and the number of predators themselves &lt;code&gt;(xy)&lt;/code&gt;. Each interaction reduces the population of prey, but increases the population of predators (the members are &lt;code&gt;bsa&lt;/code&gt; and &lt;code&gt;dxy&lt;/code&gt; on the right side of the equation).&lt;/p&gt;
 &lt;h2 id=&#34;task&#34;&gt;Task:&lt;/h2&gt;
-&lt;p&gt;In the forest live x number of wolves eating hares, the number of which in the same forest y. As long as the number of hares is large enough to feed all wolves, the number of wolves grows until the time comes that the food is no longer enough for all. Then the wolves will start dying and their numbers will decrease. In this case, at some point the number of hares will start to increase again, which will lead to a new growth of the wolf population. This cycle will be repeated as long as both populations exist. In addition, the number of flocks is affected by disease and aging. This model is described with the following equation:&lt;/p&gt;
+&lt;p&gt;In the forest live &lt;code&gt;x&lt;/code&gt; number of wolves eating hares, the number of which in the same forest &lt;code&gt;y&lt;/code&gt;. As long as the number of hares is large enough to feed all wolves, the number of wolves grows until the time comes that the food is no longer enough for all. Then the wolves will start dying and their numbers will decrease. In this case, at some point the number of hares will start to increase again, which will lead to a new growth of the wolf population. This cycle will be repeated as long as both populations exist. In addition, the number of flocks is affected by disease and aging. This model is described with the following equation:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;dx/dt = -ax(t) + bx(t)y(t)&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;dy/dt = cy(t) - dx(t)y(t)&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;a, d&lt;/code&gt; - mortality rate&lt;/p&gt;

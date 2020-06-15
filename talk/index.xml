@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks |  Smirnova M.A.</title>
+    <title>Выступления |  Smirnova M.A.</title>
     <link>https://smirnovamaria.github.io/talk/</link>
       <atom:link href="https://smirnovamaria.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
-    <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 Jun 2020 13:30:00 +0000</lastBuildDate>
+    <description>Выступления</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 16 Jun 2020 13:30:00 +0000</lastBuildDate>
     <image>
       <url>https://smirnovamaria.github.io/img/myphoto.jpg</url>
-      <title>Recent &amp; Upcoming Talks</title>
+      <title>Выступления</title>
       <link>https://smirnovamaria.github.io/talk/</link>
     </image>
     
     <item>
-      <title>Building a predator-prey model</title>
+      <title>Построение модели хищник-жертва</title>
       <link>https://smirnovamaria.github.io/talk/predator-prey-model-talk/</link>
-      <pubDate>Sat, 20 Jun 2020 13:30:00 +0000</pubDate>
+      <pubDate>Tue, 16 Jun 2020 13:30:00 +0000</pubDate>
       <guid>https://smirnovamaria.github.io/talk/predator-prey-model-talk/</guid>
       <description></description>
     </item>

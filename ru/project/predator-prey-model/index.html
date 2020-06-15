@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="Predator-prey model construction method.">
+  <meta name="description" content="Метод построения модели хищник-жертва">
 
   
   <link rel="alternate" hreflang="en" href="https://smirnovamaria.github.io/project/predator-prey-model/">
@@ -235,14 +235,14 @@
   
   <meta property="og:site_name" content="Смирнова М.А.">
   <meta property="og:url" content="https://smirnovamaria.github.io/ru/project/predator-prey-model/">
-  <meta property="og:title" content="Predator-Prey Model | Смирнова М.А.">
-  <meta property="og:description" content="Predator-prey model construction method."><meta property="og:image" content="https://smirnovamaria.github.io/ru/project/predator-prey-model/featured.png">
+  <meta property="og:title" content="Модель хищник-жертва | Смирнова М.А.">
+  <meta property="og:description" content="Метод построения модели хищник-жертва"><meta property="og:image" content="https://smirnovamaria.github.io/ru/project/predator-prey-model/featured.png">
   <meta property="twitter:image" content="https://smirnovamaria.github.io/ru/project/predator-prey-model/featured.png"><meta property="og:locale" content="ru-ru">
   
     
-      <meta property="article:published_time" content="2020-05-28T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-06-15T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-05-28T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-06-15T00:00:00&#43;00:00">
   
 
   
@@ -266,14 +266,14 @@
     "@type": "WebPage",
     "@id": "https://smirnovamaria.github.io/ru/project/predator-prey-model/"
   },
-  "headline": "Predator-Prey Model",
+  "headline": "Модель хищник-жертва",
   
   "image": [
     "https://smirnovamaria.github.io/ru/project/predator-prey-model/featured.png"
   ],
   
-  "datePublished": "2020-05-28T00:00:00Z",
-  "dateModified": "2020-05-28T00:00:00Z",
+  "datePublished": "2020-06-15T00:00:00Z",
+  "dateModified": "2020-06-15T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -288,7 +288,7 @@
       "url": "https://smirnovamaria.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Predator-prey model construction method."
+  "description": "Метод построения модели хищник-жертва"
 }
 </script>
 
@@ -306,7 +306,7 @@
 
 
 
-  <title>Predator-Prey Model | Смирнова М.А.</title>
+  <title>Модель хищник-жертва | Смирнова М.А.</title>
 
 </head>
 
@@ -582,7 +582,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Predator-Prey Model</h1>
+  <h1>Модель хищник-жертва</h1>
 
   
 
@@ -600,7 +600,7 @@
     
       
     
-    May 28, 2020
+    Jun 15, 2020
   </span>
   
 
@@ -647,36 +647,36 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h2 id="model-description">Model description</h2>
-<p>The simplest model of interaction of two types of &ldquo;predator - prey&rdquo; -
-Lotka-Volterra model. This two-species model is based on
-the following assumptions:</p>
+      <h2 id="представление-модели">Представление модели</h2>
+<p>Простейшая модель взаимодействия двух типов &ldquo;хищник - жертва&rdquo; -
+Модель Лотки-Волтерры. Эта двухвидовая модель основана на
+следующих предположениях:</p>
 <ul>
-<li>The population numbers of prey x and predators y depend only on time
-(the model does not take into account the spatial distribution of the population by
-occupied territory)</li>
-<li>In the absence of interaction, the number of species changes by the model
-Malthus, with the number of prey increasing and the number of predators falling.</li>
-<li>Natural mortality of the prey and natural birth rate of the predator
-are considered insignificant</li>
-<li>The saturation effect of both populations is not considered</li>
-<li>The rate of increase in the number of prey decreases proportionally
-predator abundances</li>
+<li>Численность популяции добычи x и хищников y зависит только от времени
+(модель не учитывает пространственное распределение населения по
+оккупированной территории)</li>
+<li>В отсутствие взаимодействия количество видов изменяется по модели
+Мальтуса, с увеличением количества добычи и падением числа хищников.</li>
+<li>Естественная смертность от добычи и естественная рождаемость хищника
+считаются незначительными</li>
+<li>Эффект насыщения обеих популяций не учитывается</li>
+<li>Темпы увеличения количества добычи снижаются пропорционально
+изобилию хищников</li>
 </ul>
 <p><code>dx/dt = -ax(t) + bx(t)y(t)</code></p>
 <p><code>dy/dt = cy(t) - dx(t)y(t)</code></p>
-<p>In this model, x is the number of victims and y is the number of predators. Coefficient a describes the rate of natural increase in the number of victims in the absence of predators, C-the natural extinction of predators deprived of food in the form of victims. The probability of interaction between a victim and a predator is calculated in proportion to both the number of victims and the number of predators themselves (xy). Each interaction reduces the population of prey, but increases the population of predators (the members are bsa and dxy on the right side of the equation).</p>
-<h2 id="task">Task:</h2>
-<p>In the forest live x number of wolves eating hares, the number of which in the same forest y. As long as the number of hares is large enough to feed all wolves, the number of wolves grows until the time comes that the food is no longer enough for all. Then the wolves will start dying and their numbers will decrease. In this case, at some point the number of hares will start to increase again, which will lead to a new growth of the wolf population. This cycle will be repeated as long as both populations exist. In addition, the number of flocks is affected by disease and aging. This model is described with the following equation:</p>
+<p>В этой модели <code>x</code> - число жертв, а <code>y</code> - число хищников. Коэффициент <code>а</code> описывает темпы естественного увеличения числа жертв при отсутствии хищников, <code>c</code> - естественное вымирание хищников, лишенных пищи в виде жертв. Вероятность взаимодействия жертвы и хищника рассчитывается пропорционально как числу жертв, так и числу самих хищников <code>(xy)</code>. Каждое взаимодействие уменьшает популяцию добычи, но увеличивает популяцию хищников (члены <code>bsa</code> и <code>dxy</code> в правой части уравнения).</p>
+<h2 id="задача">Задача:</h2>
+<p>В лесу обитает <code>х</code> волков, поедающих зайцев, число которых в том же лесу <code>у</code>. Пока количество зайцев достаточно велико, чтобы прокормить всех волков, количество волков растет до тех пор, пока не окажется, что пищи уже недостаточно для всех. Тогда волки начнут умирать и их численность уменьшится. В этом случае в какой-то момент количество зайцев снова начнет увеличиваться, что приведет к новому росту популяции волков. Этот цикл будет повторяться до тех пор, пока существуют обе популяции. Кроме того, на популяцию стаи влияют болезни и старение. Эта модель описывается следующими уравнениями:</p>
 <p><code>dx/dt = -ax(t) + bx(t)y(t)</code></p>
 <p><code>dy/dt = cy(t) - dx(t)y(t)</code></p>
-<p><code>a, d</code> - mortality rate</p>
-<p><code>b, c</code> - population growth rates</p>
+<p><code>a, d</code> - смертность</p>
+<p><code>b, c</code> - темпы прироста</p>
 <ol>
-<li>Plot the dependence of <code>x</code> on <code>y</code> and graphs of functions <code>x(t)</code> from <code>y(t)</code></li>
-<li>Find the stationary state of the system.</li>
+<li>Найти зависимость <code>x</code> on <code>y</code> и построить графики функций <code>x(t)</code> от <code>y(t)</code></li>
+<li>Найти стационарное состояние системы.</li>
 </ol>
-<h2 id="output">Output</h2>
+<h2 id="полученные-графики">Полученные графики</h2>
 <p><img class="special-img-class" src="/img/predator-prey model slides img/output.png" /></p>
 
     </div>
@@ -690,7 +690,7 @@ predator abundances</li>
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/ru/tag/mathematical-model/">Mathematical model</a>
+  <a class="badge badge-light" href="/ru/tag/%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C/">Математическая модель</a>
   
 </div>
 
@@ -707,7 +707,7 @@ predator abundances</li>
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://smirnovamaria.github.io/ru/project/predator-prey-model/&amp;text=Predator-Prey%20Model" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://smirnovamaria.github.io/ru/project/predator-prey-model/&amp;text=%d0%9c%d0%be%d0%b4%d0%b5%d0%bb%d1%8c%20%d1%85%d0%b8%d1%89%d0%bd%d0%b8%d0%ba-%d0%b6%d0%b5%d1%80%d1%82%d0%b2%d0%b0" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -720,7 +720,7 @@ predator abundances</li>
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://smirnovamaria.github.io/ru/project/predator-prey-model/&amp;t=Predator-Prey%20Model" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://smirnovamaria.github.io/ru/project/predator-prey-model/&amp;t=%d0%9c%d0%be%d0%b4%d0%b5%d0%bb%d1%8c%20%d1%85%d0%b8%d1%89%d0%bd%d0%b8%d0%ba-%d0%b6%d0%b5%d1%80%d1%82%d0%b2%d0%b0" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -733,7 +733,7 @@ predator abundances</li>
       
       
       <li>
-        <a href="mailto:?subject=Predator-Prey%20Model&amp;body=https://smirnovamaria.github.io/ru/project/predator-prey-model/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=%d0%9c%d0%be%d0%b4%d0%b5%d0%bb%d1%8c%20%d1%85%d0%b8%d1%89%d0%bd%d0%b8%d0%ba-%d0%b6%d0%b5%d1%80%d1%82%d0%b2%d0%b0&amp;body=https://smirnovamaria.github.io/ru/project/predator-prey-model/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -746,7 +746,7 @@ predator abundances</li>
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://smirnovamaria.github.io/ru/project/predator-prey-model/&amp;title=Predator-Prey%20Model" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://smirnovamaria.github.io/ru/project/predator-prey-model/&amp;title=%d0%9c%d0%be%d0%b4%d0%b5%d0%bb%d1%8c%20%d1%85%d0%b8%d1%89%d0%bd%d0%b8%d0%ba-%d0%b6%d0%b5%d1%80%d1%82%d0%b2%d0%b0" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -759,7 +759,7 @@ predator abundances</li>
       
       
       <li>
-        <a href="whatsapp://send?text=Predator-Prey%20Model%20https://smirnovamaria.github.io/ru/project/predator-prey-model/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=%d0%9c%d0%be%d0%b4%d0%b5%d0%bb%d1%8c%20%d1%85%d0%b8%d1%89%d0%bd%d0%b8%d0%ba-%d0%b6%d0%b5%d1%80%d1%82%d0%b2%d0%b0%20https://smirnovamaria.github.io/ru/project/predator-prey-model/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -772,7 +772,7 @@ predator abundances</li>
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://smirnovamaria.github.io/ru/project/predator-prey-model/&amp;title=Predator-Prey%20Model" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://smirnovamaria.github.io/ru/project/predator-prey-model/&amp;title=%d0%9c%d0%be%d0%b4%d0%b5%d0%bb%d1%8c%20%d1%85%d0%b8%d1%89%d0%bd%d0%b8%d0%ba-%d0%b6%d0%b5%d1%80%d1%82%d0%b2%d0%b0" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

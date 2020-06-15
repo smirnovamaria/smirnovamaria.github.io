@@ -37,110 +37,108 @@
     </item>
     
     <item>
-      <title>Predator-Prey Model</title>
+      <title>Модель хищник-жертва</title>
       <link>https://smirnovamaria.github.io/ru/project/predator-prey-model/</link>
-      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://smirnovamaria.github.io/ru/project/predator-prey-model/</guid>
-      <description>&lt;h2 id=&#34;model-description&#34;&gt;Model description&lt;/h2&gt;
-&lt;p&gt;The simplest model of interaction of two types of &amp;ldquo;predator - prey&amp;rdquo; -
-Lotka-Volterra model. This two-species model is based on
-the following assumptions:&lt;/p&gt;
+      <description>&lt;h2 id=&#34;представление-модели&#34;&gt;Представление модели&lt;/h2&gt;
+&lt;p&gt;Простейшая модель взаимодействия двух типов &amp;ldquo;хищник - жертва&amp;rdquo; -
+Модель Лотки-Волтерры. Эта двухвидовая модель основана на
+следующих предположениях:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The population numbers of prey x and predators y depend only on time
-(the model does not take into account the spatial distribution of the population by
-occupied territory)&lt;/li&gt;
-&lt;li&gt;In the absence of interaction, the number of species changes by the model
-Malthus, with the number of prey increasing and the number of predators falling.&lt;/li&gt;
-&lt;li&gt;Natural mortality of the prey and natural birth rate of the predator
-are considered insignificant&lt;/li&gt;
-&lt;li&gt;The saturation effect of both populations is not considered&lt;/li&gt;
-&lt;li&gt;The rate of increase in the number of prey decreases proportionally
-predator abundances&lt;/li&gt;
+&lt;li&gt;Численность популяции добычи x и хищников y зависит только от времени
+(модель не учитывает пространственное распределение населения по
+оккупированной территории)&lt;/li&gt;
+&lt;li&gt;В отсутствие взаимодействия количество видов изменяется по модели
+Мальтуса, с увеличением количества добычи и падением числа хищников.&lt;/li&gt;
+&lt;li&gt;Естественная смертность от добычи и естественная рождаемость хищника
+считаются незначительными&lt;/li&gt;
+&lt;li&gt;Эффект насыщения обеих популяций не учитывается&lt;/li&gt;
+&lt;li&gt;Темпы увеличения количества добычи снижаются пропорционально
+изобилию хищников&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;dx/dt = -ax(t) + bx(t)y(t)&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;dy/dt = cy(t) - dx(t)y(t)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;In this model, x is the number of victims and y is the number of predators. Coefficient a describes the rate of natural increase in the number of victims in the absence of predators, C-the natural extinction of predators deprived of food in the form of victims. The probability of interaction between a victim and a predator is calculated in proportion to both the number of victims and the number of predators themselves (xy). Each interaction reduces the population of prey, but increases the population of predators (the members are bsa and dxy on the right side of the equation).&lt;/p&gt;
-&lt;h2 id=&#34;task&#34;&gt;Task:&lt;/h2&gt;
-&lt;p&gt;In the forest live x number of wolves eating hares, the number of which in the same forest y. As long as the number of hares is large enough to feed all wolves, the number of wolves grows until the time comes that the food is no longer enough for all. Then the wolves will start dying and their numbers will decrease. In this case, at some point the number of hares will start to increase again, which will lead to a new growth of the wolf population. This cycle will be repeated as long as both populations exist. In addition, the number of flocks is affected by disease and aging. This model is described with the following equation:&lt;/p&gt;
+&lt;p&gt;В этой модели &lt;code&gt;x&lt;/code&gt; - число жертв, а &lt;code&gt;y&lt;/code&gt; - число хищников. Коэффициент &lt;code&gt;а&lt;/code&gt; описывает темпы естественного увеличения числа жертв при отсутствии хищников, &lt;code&gt;c&lt;/code&gt; - естественное вымирание хищников, лишенных пищи в виде жертв. Вероятность взаимодействия жертвы и хищника рассчитывается пропорционально как числу жертв, так и числу самих хищников &lt;code&gt;(xy)&lt;/code&gt;. Каждое взаимодействие уменьшает популяцию добычи, но увеличивает популяцию хищников (члены &lt;code&gt;bsa&lt;/code&gt; и &lt;code&gt;dxy&lt;/code&gt; в правой части уравнения).&lt;/p&gt;
+&lt;h2 id=&#34;задача&#34;&gt;Задача:&lt;/h2&gt;
+&lt;p&gt;В лесу обитает &lt;code&gt;х&lt;/code&gt; волков, поедающих зайцев, число которых в том же лесу &lt;code&gt;у&lt;/code&gt;. Пока количество зайцев достаточно велико, чтобы прокормить всех волков, количество волков растет до тех пор, пока не окажется, что пищи уже недостаточно для всех. Тогда волки начнут умирать и их численность уменьшится. В этом случае в какой-то момент количество зайцев снова начнет увеличиваться, что приведет к новому росту популяции волков. Этот цикл будет повторяться до тех пор, пока существуют обе популяции. Кроме того, на популяцию стаи влияют болезни и старение. Эта модель описывается следующими уравнениями:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;dx/dt = -ax(t) + bx(t)y(t)&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;dy/dt = cy(t) - dx(t)y(t)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;a, d&lt;/code&gt; - mortality rate&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;b, c&lt;/code&gt; - population growth rates&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;a, d&lt;/code&gt; - смертность&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;b, c&lt;/code&gt; - темпы прироста&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Plot the dependence of &lt;code&gt;x&lt;/code&gt; on &lt;code&gt;y&lt;/code&gt; and graphs of functions &lt;code&gt;x(t)&lt;/code&gt; from &lt;code&gt;y(t)&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Find the stationary state of the system.&lt;/li&gt;
+&lt;li&gt;Найти зависимость &lt;code&gt;x&lt;/code&gt; on &lt;code&gt;y&lt;/code&gt; и построить графики функций &lt;code&gt;x(t)&lt;/code&gt; от &lt;code&gt;y(t)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Найти стационарное состояние системы.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;output&#34;&gt;Output&lt;/h2&gt;
+&lt;h2 id=&#34;полученные-графики&#34;&gt;Полученные графики&lt;/h2&gt;
 &lt;p&gt;&lt;img class=&#34;special-img-class&#34; src=&#34;https://smirnovamaria.github.io/img/predator-prey model slides img/output.png&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Slides</title>
+      <title>Слайды</title>
       <link>https://smirnovamaria.github.io/ru/slides/predator-prey-model-slides/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       <guid>https://smirnovamaria.github.io/ru/slides/predator-prey-model-slides/</guid>
-      <description>&lt;h1 id=&#34;predator-prey-model&#34;&gt;Predator-prey model&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;модель-хищник-жертва&#34;&gt;Модель хищник-жертва&lt;/h1&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;model-model-description&#34;&gt;Model. Model description.&lt;/h2&gt;
+&lt;h2 id=&#34;модель-описание-модели&#34;&gt;Модель. Описание модели&lt;/h2&gt;
 &lt;hr&gt;
-&lt;p&gt;The simplest model of interaction of two types of &amp;ldquo;predator - prey&amp;rdquo; -
-Lotka-Volterra model. This two-species model is based on
-the following assumptions:&lt;/p&gt;
+&lt;p&gt;Простейшая модель взаимодействия двух типов &amp;ldquo;хищник - жертва&amp;rdquo; - модель
+Лотки-Волтерры. Эта двухвидовая модель основана на следующих предположениях:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;The population numbers of prey x and predators y depend only on time&lt;/p&gt;
+&lt;p&gt;Численность популяции добычи x и хищников y зависит только от времени&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;In the absence of interaction, the number of species changes by the model
-Malthus, with the number of prey increasing and the number of predators falling.&lt;/p&gt;
+&lt;p&gt;При отсутствии взаимодействия количество видов изменяется по модели
+Мальтуса, с увеличением количества добычи и падением числа хищников.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;
-&lt;p&gt;Natural mortality of the prey and natural birth rate of the predator
-are considered insignificant&lt;/p&gt;
+&lt;p&gt;Естественная смертность добычи и естественная рождаемость хищника
+считаются незначительными&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;The saturation effect of both populations is not considered&lt;/p&gt;
+&lt;p&gt;Эффект насыщения обеих популяций не рассматривается&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;The rate of increase in the number of prey decreases proportionally
-predator abundances&lt;/p&gt;
+&lt;p&gt;Темпы увеличения численности добычи снижаются пропорционально
+изобилию хищников&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;p&gt;In this model, x is the number of prey, y is the number of predators.&lt;/p&gt;
+&lt;p&gt;В этой модели x - количество добычи, y - количество хищников.&lt;/p&gt;
 &lt;p&gt;&lt;img class=&#34;special-img-class&#34; src=&#34;https://smirnovamaria.github.io/img/predator-prey model slides img/model.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Evolution of the prey population and
-predators in the Lotka-Volterra model&lt;/p&gt;
+&lt;p&gt;Эволюция популяции добычи и
+хищников в модели Лотки-Вольтерры&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;algorithm&#34;&gt;Algorithm.&lt;/h2&gt;
+&lt;h2 id=&#34;алгоритм&#34;&gt;Алгоритм&lt;/h2&gt;
 &lt;hr&gt;
-&lt;p&gt;Our predator-prey model has only two initial states:&lt;/p&gt;
+&lt;p&gt;Наша модель хищник-жертва имеет только два начальных состояния:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Stationary state (Figure 1, point A)&lt;/li&gt;
-&lt;li&gt;The state having a deviation from the stationary one (Figure 1, point B)&lt;/li&gt;
+&lt;li&gt;Стационарное состояние (рис. 1, точка А)&lt;/li&gt;
+&lt;li&gt;Состояние, имеющее отклонение от стационарного (рис. 1, точка В)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img class=&#34;special-img-class&#34; src=&#34;https://smirnovamaria.github.io/img/predator-prey model slides img/figuresAB.png&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;with-a-small-change-in-the-model-the-following-happens&#34;&gt;With a small change in the model, the following happens:&lt;/h3&gt;
+&lt;h3 id=&#34;при-небольшом-изменении-модели-происходит-следующее&#34;&gt;При небольшом изменении модели происходит следующее:&lt;/h3&gt;
 &lt;p&gt;$$
 \frac{dx}{dt} = -ax(t) + bx(t)y(t)
 $$&lt;/p&gt;
 &lt;p&gt;$$\frac{dy}{dt} = cy(t) - dx(t)y(t)$$&lt;/p&gt;
-&lt;p&gt;Here x - number of preys, y - number of predators. a - ratio of natural mortality of predators, b - ratio of natural increase in preys, c - ratio of increase in predators, d - ratio of mortality of preys.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Scheme:&lt;/p&gt;
+&lt;h2 id=&#34;здесь-х---количество-добычи-у---число-хищников-а---отношение-естественной-смертности-хищников-b---отношение-естественного-прироста-добычи-с---отношение-прироста-хищников-d---отношение-смертности-добычи&#34;&gt;Здесь х - количество добычи, у - число хищников. а - отношение естественной смертности хищников, b - отношение естественного прироста добычи, с - отношение прироста хищников, d - отношение смертности добычи.&lt;/h2&gt;
+&lt;p&gt;Схема:&lt;/p&gt;
 &lt;p&gt;&lt;img class=&#34;special-img-class&#34; src=&#34;https://smirnovamaria.github.io/img/predator-prey model slides img/scheme.png&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;software-solution&#34;&gt;Software solution.&lt;/h2&gt;
+&lt;h2 id=&#34;программная-реализация&#34;&gt;Программная реализация&lt;/h2&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img width = &#34;600&#34; class=&#34;special-img-class&#34; src=&#34;https://smirnovamaria.github.io/img/predator-prey model slides img/octave.png&#34; /&gt;&lt;/p&gt;
-&lt;p style = &#34;float:right&#34;&gt;To solve this problem, we used the system for mathematical calculations gnu octave. GNU Octave is a free system for mathematical calculations, using a high-level MATLAB-compatible language.&lt;/p&gt;
+&lt;p style = &#34;float:right&#34;&gt;Для решения этой задачи мы использовали систему для математических вычислений GNU Octave. GNU Octave - свободная система для математических вычислений, использующая высокоуровневый MATLAB - совместимый язык.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;code&#34;&gt;Code.&lt;/h3&gt;
+&lt;h3 id=&#34;код&#34;&gt;Код.&lt;/h3&gt;
 &lt;pre&gt;&lt;code class=&#34;language-MATHLAB&#34;&gt;set(figure,&#39;Name&#39;,&#39;Lotka-Volterra models of Predator-Prey Relationships&#39;,&#39;NumberTitle&#39;,&#39;off&#39;)
 
 function dx=f(x,t)
