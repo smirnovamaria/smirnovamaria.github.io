@@ -135,7 +135,7 @@ $$&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;программная-реализация&#34;&gt;Программная реализация&lt;/h2&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img width = &#34;600&#34; class=&#34;special-img-class&#34; src=&#34;https://smirnovamaria.github.io/img/predator-prey model slides img/octave.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img width = &#34;500&#34; class=&#34;special-img-class&#34; src=&#34;https://smirnovamaria.github.io/img/predator-prey model slides img/octave.png&#34; /&gt;&lt;/p&gt;
 &lt;p style = &#34;float:right&#34;&gt;Для решения этой задачи мы использовали систему для математических вычислений GNU Octave. GNU Octave - свободная система для математических вычислений, использующая высокоуровневый MATLAB - совместимый язык.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;код&#34;&gt;Код.&lt;/h3&gt;

@@ -137,7 +137,7 @@ $$&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;software-solution&#34;&gt;Software solution.&lt;/h2&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img width = &#34;600&#34; class=&#34;special-img-class&#34; src=&#34;https://smirnovamaria.github.io/img/predator-prey model slides img/octave.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img width = &#34;500&#34; class=&#34;special-img-class&#34; src=&#34;https://smirnovamaria.github.io/img/predator-prey model slides img/octave.png&#34; /&gt;&lt;/p&gt;
 &lt;p style = &#34;float:right&#34;&gt;To solve this problem, we used the system for mathematical calculations gnu octave. GNU Octave is a free system for mathematical calculations, using a high-level MATLAB-compatible language.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;code&#34;&gt;Code.&lt;/h3&gt;
