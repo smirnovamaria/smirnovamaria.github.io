@@ -124,7 +124,7 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;img class=&#34;special-img-class&#34; src=&#34;https://smirnovamaria.github.io/img/predator-prey model slides img/figuresAB.png&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;при-небольшом-изменении-модели-происходит-следующее&#34;&gt;При небольшом изменении модели происходит следующее:&lt;/h3&gt;
+&lt;h1 id=&#34;при-небольшом-изменении-модели-происходит-следующее&#34;&gt;При небольшом изменении модели происходит следующее:&lt;/h1&gt;
 &lt;p&gt;$$
 \frac{dx}{dt} = -ax(t) + bx(t)y(t)
 $$&lt;/p&gt;
