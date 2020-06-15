@@ -5,7 +5,7 @@
     <link>https://smirnovamaria.github.io/talk/</link>
       <atom:link href="https://smirnovamaria.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Выступления</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 16 Jun 2020 13:30:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 Jun 2020 13:30:00 +0000</lastBuildDate>
     <image>
       <url>https://smirnovamaria.github.io/img/myphoto.jpg</url>
       <title>Выступления</title>
@@ -13,9 +13,9 @@
     </image>
     
     <item>
-      <title>Построение модели хищник-жертва</title>
+      <title>Building a predator-prey model</title>
       <link>https://smirnovamaria.github.io/talk/predator-prey-model-talk/</link>
-      <pubDate>Tue, 16 Jun 2020 13:30:00 +0000</pubDate>
+      <pubDate>Sat, 20 Jun 2020 13:30:00 +0000</pubDate>
       <guid>https://smirnovamaria.github.io/talk/predator-prey-model-talk/</guid>
       <description></description>
     </item>

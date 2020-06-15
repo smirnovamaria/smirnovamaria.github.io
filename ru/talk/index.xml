@@ -5,7 +5,7 @@
     <link>https://smirnovamaria.github.io/ru/talk/</link>
       <atom:link href="https://smirnovamaria.github.io/ru/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><lastBuildDate>Sat, 20 Jun 2020 13:30:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><lastBuildDate>Tue, 16 Jun 2020 13:30:00 +0000</lastBuildDate>
     <image>
       <url>https://smirnovamaria.github.io/img/myphoto.jpg</url>
       <title>Recent &amp; Upcoming Talks</title>
@@ -13,9 +13,9 @@
     </image>
     
     <item>
-      <title>Building a predator-prey model</title>
+      <title>Построение модели хищник-жертва</title>
       <link>https://smirnovamaria.github.io/ru/talk/predator-prey-model-talk/</link>
-      <pubDate>Sat, 20 Jun 2020 13:30:00 +0000</pubDate>
+      <pubDate>Tue, 16 Jun 2020 13:30:00 +0000</pubDate>
       <guid>https://smirnovamaria.github.io/ru/talk/predator-prey-model-talk/</guid>
       <description></description>
     </item>
