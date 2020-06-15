@@ -3,11 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://smirnovamaria.github.io/post/abc/</loc>
+    <loc>https://smirnovamaria.github.io/</loc>
+    <lastmod>2020-06-15T14:44:13+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://smirnovamaria.github.io/</loc>
+    <loc>https://smirnovamaria.github.io/post/hello/</loc>
+    <lastmod>2020-06-15T14:44:13+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smirnovamaria.github.io/post/</loc>
+    <lastmod>2020-06-15T14:44:13+03:00</lastmod>
   </url>
   
   <url>
@@ -16,10 +23,6 @@
   
   <url>
     <loc>https://smirnovamaria.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://smirnovamaria.github.io/post/</loc>
   </url>
   
   <url>
